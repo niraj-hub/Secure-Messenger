@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/aes"
+        android:layout_width="match_parent"
+        android:paddingVertical="20dp"
+        android:textAlignment="center"
+        android:background="#FF03DAC5"
+        android:layout_height="wrap_content"
+        android:text="AES"
+        tools:ignore="HardcodedText,MissingConstraints,UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="DES"
+        android:paddingVertical="20dp"
+        android:background="#FF03DA"
+        tools:ignore="HardcodedText,MissingConstraints,OnClick" />
+
+    <TextView
+        android:id="@+id/rsa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="RSA"
+        android:paddingVertical="20dp"
+        android:background="#FF03"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/md5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="MD5"
+        android:paddingVertical="20dp"
+        android:background="#DAC5"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+</LinearLayout>
